@@ -1,0 +1,214 @@
+
+  /* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation Bar */
+header {
+  background-color: #003366;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #00509e, #003366);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  background: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-btn:hover {
+  background: #cc5200;
+}
+
+/* About Section */
+.about-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.about-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 16px;
+}
+
+/* Website Check Section */
+.check-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.check-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Result Styling */
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.safe {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+}
+
+.fake {
+  background-color: #dc3545;
+  color: white;
+  font-weight: bold;
+}
+
+.warning {
+  background-color: #ffc107;
+  color: black;
+  font-weight: bold;
+}
+
+/* How It Works Section */
+.how-it-works-section {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.how-it-works-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.how-it-works-section p {
+  font-size: 16px;
+}
+
+/* Features Section */
+.features-section {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.features-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features-section li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+  
